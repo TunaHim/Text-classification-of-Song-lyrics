@@ -12,3 +12,15 @@ Here I build a text classification model on song lyrics. The aim is to predict t
 +	The accuracy is checked by Naive Bayes, SGDClassifier and LogisticRegression.
 +	Topic modelling is done to find relevant topics from the lyrics.
 +	A ‘wordcloud’ is constructed to see the frequency of words appearing in the lyrics.
+
+## Data sources and access
+
+| Data | Source | Format |
+|---|---|---|
+| Song lyrics of four artists (ten songs each) | Web-scraped from www.lyrics.com with `requests` and BeautifulSoup | Raw HTML text files (`*_html.txt`) and cleaned corpus files |
+
+The lyrics are copyrighted by their owners and are included only for this non-commercial learning project.
+
+## Licence
+
+Code: MIT, see [LICENSE](LICENSE). Data: see *Data sources and access*; third-party data keep their own terms.
